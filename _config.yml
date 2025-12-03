@@ -1,25 +1,31 @@
 title: "homelab"
+email: ""
 description: "Homelab Hardware, Apps und Setup"
-url: "https://spectra.moyonet.de/"
+author: "crss"
+
+# Domain-Setup
+url: "https://spectra.moyonet.de"
 baseurl: ""
 
-theme: minima
+# Clean Blog Theme von StartBootstrap
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 
-author:
-  name: "cratruenas"
-  email: "cratruenas@gmail.com"
+# Social Profiles (optional)
+twitter_username:
+github_username: crss
+facebook_username:
+instagram_username:
+linkedin_username:
 
-# Navigation
-header_pages:
-  - hardware.md
-  - apps.md
+# Analytics (optional)
+google_analytics: ""
 
+# Build Settings
 markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
+paginate: 5
+paginate_path: "/posts/page:num/"
 
-# GitHub Pages fixes
 plugins:
-  - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-paginate
+  # - jekyll-sitemap   # kannst du aktivieren, wenn du willst
