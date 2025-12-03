@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Apps & Services"
 permalink: /apps
-background: "/img/contact-bg.jpg"
 ---
 
 ## Übersicht

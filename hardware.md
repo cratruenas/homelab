@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Hardware"
 permalink: /hardware
-background: "/img/about-bg.jpg"
 ---
 
 ## Basis-System

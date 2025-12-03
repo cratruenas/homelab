@@ -8,7 +8,11 @@ url: "https://spectra.moyonet.de"
 baseurl: ""
 
 # Clean Blog Theme von StartBootstrap
-remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+remote_theme: pages-themes/hacker
+
+# Optional
+show_downloads: false
+google_analytics: ""
 
 # Social Profiles (optional)
 twitter_username:
@@ -17,15 +21,8 @@ facebook_username:
 instagram_username:
 linkedin_username:
 
-# Analytics (optional)
-google_analytics: ""
-
-# Build Settings
-markdown: kramdown
-paginate: 5
-paginate_path: "/posts/page:num/"
-
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-paginate
   # - jekyll-sitemap   # kannst du aktivieren, wenn du willst

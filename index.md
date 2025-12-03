@@ -1,7 +1,6 @@
 ---
-layout: home
+layout: default
 title: "Mein Homelab"
-background: "/img/home-bg.jpg"
 ---
 
 Willkommen in meinem Homelab.
