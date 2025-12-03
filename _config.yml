@@ -1,0 +1,25 @@
+title: "homelab"
+description: "Homelab Hardware, Apps und Setup"
+url: "https://cratruenas.github.io"    # anpassen, falls User anders
+baseurl: "/homelab"                    # weil Repo nicht username.github.io heißt
+
+theme: minima
+
+author:
+  name: "cratruenas"
+  email: ""
+
+# Navigation
+header_pages:
+  - hardware.md
+  - apps.md
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# GitHub Pages fixes
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
